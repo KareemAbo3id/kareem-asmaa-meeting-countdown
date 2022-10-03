@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Our Wedding Countdown</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Kareem And Asmaa Wedding Countdown" />
+    <meta name="description" content="Kareem And Asmaa Wedding Countdown" />
+    <meta name="language" content="en" />
+    <meta name="author" content="Kareem Aboeid" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2018/08/20/17/04/wedding-3619423_960_720.png" />
+    <meta property="og:title" content="Kareem And Asmaa Wedding Countdown" />
+    <meta property="og:type" content="app" />
+    <meta property="og:url" content="https://kareemabo3id.github.io/kareem-asmaa-wedding-countdown/" />
+    <meta property="og:description" content="Kareem And Asmaa Wedding Countdown" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/KareemAbo3id/kareem-asmaa-wedding-countdown/master/images/hero.jpeg" />
+  </head>
+
+  <body>
+    <!-- Countdown Main Section -->
+    <section class="mainCounter container">
+      <div class="title row">
+        <h2 id="theTitle" class="col col-12">باقي من الزمن حتى لقائنا</h2>
+        <h2 id="theRes" class="col col-12 hide">تم اللقاء بكل حب ووِد</h2>
+        <div class="celebBox hide">
+          <img class="celebImg" src="https://raw.githubusercontent.com/KareemAbo3id/kareem-asmaa-wedding-countdown/master/images/party1.gif" />
+          <img class="celebImg" src="https://raw.githubusercontent.com/KareemAbo3id/kareem-asmaa-wedding-countdown/master/images/party2.gif" />
+        </div>
+      </div>
+      <div id="theTimer" class="countdown row row-cols-5">
+        <div class="time-container container-sec col">
+          <h3 class="timerPlaceHolder sec">🕒</h3>
+          <h3 class="timeType">ثانية</h3>
+        </div>
+        <div class="time-container container-min col">
+          <h3 class="timerPlaceHolder min">🕒</h3>
+          <h3 class="timeType">دقيقة</h3>
+        </div>
+        <div class="time-container container-hour col">
+          <h3 class="timerPlaceHolder hour">🕒</h3>
+          <h3 class="timeType">ساعة</h3>
+        </div>
+        <div class="time-container container-day col">
+          <h3 class="timerPlaceHolder day">🕒</h3>
+          <h3 class="timeType">يوم</h3>
+        </div>
+        <div class="time-container container-month col">
+          <h3 class="timerPlaceHolder month">🕒</h3>
+          <h3 class="timeType">شهر</h3>
+        </div>
+      </div>
+      <!-- ///////////// -->
+      <!-- carousel -->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img id="heroimage" src="https://raw.githubusercontent.com/KareemAbo3id/kareem-asmaa-wedding-countdown/master/images/hero.jpeg" class="d-block w-100 KareemAndAsmaa" />
+          </div>
+        </div>
+      </div>
+      <!-- ///////////// -->
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

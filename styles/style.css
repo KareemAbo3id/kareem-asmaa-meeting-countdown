@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;900&display=swap');
+
+/* Import Bootstrap 5.0.0 beta */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css');
+
+.hide {
+  display: none !important;
+}
+
+html {
+  font-size: 10px;
+}
+
+:root {
+  --mainColor: #444857;
+  --backGroundColor: #1e1f26;
+  --fontColor: #e1e1e1;
+  --borderradius: 0.5rem;
+}
+
+body {
+  font-family: Tajawal, sans-serif;
+  font-weight: 400;
+  background-color: var(--backGroundColor);
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-exotic-floral-pattern_52683-54355.jpg');
+  background-position: center;
+  background-blend-mode: multiply;
+  background-repeat: repeat;
+  color: var(--fontColor);
+}
+
+.mainCounter {
+  text-align: center;
+  max-width: 35rem;
+}
+
+.mainCounter h2 {
+  padding: 2.2rem 0;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+#theTimer {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.celebBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.celebBox .celebImg {
+  width: 50%;
+}
+
+.time-container {
+  border-radius: var(--borderradius);
+  padding: 0.7rem 0;
+  background-color: rgba(255, 255, 255, 0.18);
+}
+
+.timerPlaceHolder {
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.timeType {
+  font-size: 1.3rem;
+}
+
+.KareemAndAsmaa {
+  border-radius: var(--borderradius);
+  margin: 2rem auto;
+  margin-bottom: 0;
+}
+
+.img-caption {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 0;
+}
