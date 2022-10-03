@@ -1,2 +1,2 @@
-# kareem-asmaa-wedding-countdown
-Our Wedding Count Down
+# kareem-asmaa-meeting-countdown
+Our Meeting Count Down
