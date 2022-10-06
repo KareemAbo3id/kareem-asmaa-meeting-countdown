@@ -13,7 +13,7 @@ const day = hour * 24;
 const month = day * 30;
 
 // SET THE TARGET DATE
-let targetDate = new Date('oct 13, 2022 12:00:00');
+let targetDate = new Date('oct 13, 2022 21:00:00');
 //////////////////
 
 setInterval(() => {
